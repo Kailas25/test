@@ -1,1 +1,8 @@
 blah blah balhahah
+schemaVersion: 1.0 
+ # Example endpoint configuration
+endpoints:
+- name: my-service-endpoint
+  service:
+     port: <SERVICE_PORT>
+  type: REST
